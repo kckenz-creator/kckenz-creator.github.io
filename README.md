@@ -21,3 +21,7 @@ A responsive static website reconstructed from the September 24, 2026 WordPress 
 
 
 FIXED VERSION: CSS is embedded in each HTML page so missing styles.css cannot cause an unstyled page. Image files must still be uploaded in assets/uploads; verify assets/uploads/2024/09/computerlab.jpg and classroom.jpg are present in GitHub repository. Replace old repository content rather than nesting the folder.
+
+
+## Responsive revision
+Updated responsive CSS is included both in styles.css and embedded within every HTML page. Preserve all directories when uploading via GitHub Desktop. Test at 375px, 768px and 1440px browser widths. Browser-level visual rendering has not been verified in this environment.
