@@ -18,3 +18,6 @@ A responsive static website reconstructed from the September 24, 2026 WordPress 
 - Keep domain registration and email hosting active if they are separate services.
 - Never publish the WordPress SQL backup, wp-config.php or WordPress user credentials.
 - Fonts load from Google Fonts and fall back to system fonts if blocked.
+
+
+FIXED VERSION: CSS is embedded in each HTML page so missing styles.css cannot cause an unstyled page. Image files must still be uploaded in assets/uploads; verify assets/uploads/2024/09/computerlab.jpg and classroom.jpg are present in GitHub repository. Replace old repository content rather than nesting the folder.
